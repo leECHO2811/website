@@ -5,6 +5,8 @@
         <style>
             body{
                 background-color:darkcyan;
+                font-family: Verdana;
+                color: rgb(204, 204, 204);
             }
             .patch_notes{
                 text-decoration: underline;
@@ -20,7 +22,7 @@
         <p><b><u>FUNFACT: the code for this website counted up exactly 101 lines from top to bottom by update v1.4!</u></b></p>
         <button style="background-color: red; color: white;">SUBSCRIBE</button>
         <button>👍Like</button>
-        <h2><u>v1.5 is out! go check out the <a href="#v1.5">patch notes</a>!</u></h2>
+        <h2><u>v1.6 is out! go check out the <a href="#v1.6">patch notes</a>!</u></h2>
         <p>accept <a href="t&c.html">terms and conditions?</a></p>
         <form> 
             <label>yes</label>
@@ -30,6 +32,7 @@
         </form>
         <p>(your internet if you refuse)</p>
         <img src="no internyet.png">
+       
         <p>note: you can't accept cookies because i'm too lazy to bake cookies...<br>anyways, here are some cool things:</p>
         <ul>
             <li>bread</li>
@@ -37,8 +40,16 @@
           <li>tanks</li>
         </ul>
 
+        <label>type a word:</label>
+        <input id="game">
+        <button type="submit" id="submitWord">submit word</button>
+
         <h2 class="title">here's the colonial flag from foxhole:</h2>
-        <img src="https://foxhole.wiki.gg/images/4/4e/ColonialFlag.png?cad1f7"width=500 alt="apparently there was an error">
+        <a href="https://www.foxholegame.com/">
+            <img src="https://foxhole.wiki.gg/images/4/4e/ColonialFlag.png?cad1f7"width=500 alt="apparently there was an error" id="foxhole">
+        </a><br><br>
+        
+        <button id="???" style="background-color: black; color: gray; width: 500px; height: 250px; font-size: xx-large;">???</button>
         <h2 class="title">here are some games i made:</h2>
         <ul>
             <li><a href="https://scratch.mit.edu/projects/1052091383/">realistic tank simulator</a></li>
@@ -59,6 +70,7 @@
             <li>ads</li>
             <li>terms and conditions</li>
             <li>getting ideas</li>
+            <li>further utilisation of JavaScript</li>
         </ul>
         <h2 id="random" class="title">place of randomness:</h2>
         <p>this is where i'll put random things</p>
@@ -76,6 +88,10 @@
         <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><br>
         <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><br>
         <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><br>
+
+        <label>type the word you typed earlier:</label>
+        <input id="game2">
+        <button id="submitAnswer">submit guess</button>
 
         <h2 class="title">patch notes</h2>
         <h3 id="v1.0"><u>v1.0</u></h3>
@@ -116,5 +132,13 @@
             <li>added a place to do pixelart</li>
             <li>added an image</li>
         </ul>
+        <h3 id="v1.6">v1.6</h3>
+        <ul>
+            <li>made tho colonial flag clickable</li>
+            <li>added a <a href="???">mysterious button</a></li>
+            <li>added a game</li>
+            <li>changed the text font and color</li>
+        </ul>
+        <script src="website.js"></script>
     </body>
 </html>
